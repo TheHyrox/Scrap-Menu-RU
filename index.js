@@ -2,7 +2,7 @@ const axios = require('axios');
 const cheerio = require('cheerio')
 
 axios
-    .get('https://www.crous-nantes.fr/restaurant/resto-u-aubepin/')
+    .get('https://www.crous-nantes.fr/restaurant/resto-u-aubepin/') // Ici change l'URL par celle de ton RU
     .then((response) => {
         const $ = cheerio.load(response.data);
         const divmeal = $('div.meal');
@@ -28,7 +28,7 @@ axios
             poleFoods.each((index, foodElement) => {
                 console.log(`- ${$(foodElement).text().trim()}`);
             });
-            console.log('\n');
+            console.log();
 
             iteration++;
         });
