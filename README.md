@@ -6,7 +6,7 @@ Ce code est un script Node.js qui permet de récupérer les menus des restaurant
 Pour utiliser ce code, vous devez avoir [Node.js](https://nodejs.org/en/download/package-manager) et npm installés sur votre ordinateur. Vous pouvez cloner ce dépôt en utilisant la commande suivante :
 
 ```bash
-git clone https://github.com/votre-nom-de-dépôt.git
+git clone https://github.com/TheHyrox/Scrap-Menu-RU.git
 ```
 
 Ensuite, vous devez installer les dépendances nécessaires en utilisant la commande suivante :
